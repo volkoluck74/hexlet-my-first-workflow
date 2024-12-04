@@ -9,5 +9,4 @@ jobs:
         with:
               node-version: '18.x'
               cache: 'npm'
-      - run: npm ci
       - run: make say-hello
